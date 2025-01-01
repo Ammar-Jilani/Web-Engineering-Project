@@ -1,0 +1,310 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #3e3939;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #946cff;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #2a1a33;
+  background-image: url('https://images.wallpaperscraft.com/image/single/texture_spots_purple_130336_1920x1080.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #d8c3e3; 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #d8c3e3; 
+}
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #c3c4c5;
+}
+
+ul {
+  color: #110707;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  background-color: #452a49;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #6a4fa2;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5c3f8a;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #bdc3c7;
+  font-size: 14px;
+}
+
+input[type="date"] {
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
+button[type="submit"] {
+  background-color: #8a56d0;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #7749b3;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+
+.admin-dashboard {
+  margin-top: 20px;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-item button {
+  margin-left: 10px;
+}
+
+.add-movie-form input,
+.add-movie-form textarea {
+  width: 100%;
+}
+
+.add-movie-form button {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a3659;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ff1f1f;
+}
+
+.main-content {
+  margin-top: 60px;
+}
+
+.home-container {
+  padding: 20px;
+  background-color: #3e2c4d;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #d8c3e3; 
+}
+
+.auth-links {
+  margin: 8px 8px 8px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.auth-button {
+  background-color: #8c64b9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #7a55a3;
+}
+
+.about-project {
+  margin-top: 40px;
+  background-color: #5b3d6b;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.group-members {
+  margin-top: 30px;
+}
+
+.members-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member-card {
+  background-color: #714879;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.member-card h4 {
+  margin-bottom: 10px;
+}
+
+.technologies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.technologies li {
+  background-color: #8d6993;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin: 8px 8px 8px 0;
+  display: inline-block;
+}
+
+p {
+  color: #d8c3e3;
+}
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #3e2c4d; /* Deep purple for table background */
+  color: #d8c3e3; /* Light purple text for visibility */
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-table th, 
+.movie-table td {
+  border: 1px solid #714879; /* Border in complementary purple */
+  padding: 12px;
+  text-align: center; /* Center align text */
+}
+
+.movie-table th {
+  background-color: #5b3d6b; /* Slightly darker purple for headers */
+  color: #ffffff; /* White text for headers */
+  font-weight: bold;
+}
+
+.movie-table tr:nth-child(even) {
+  background-color: #4a3659; /* Alternating row colors */
+}
+
+.movie-table tr:hover {
+  background-color: #4a3659; /* Highlight on hover */
+}
+
+.movie-table button {
+  margin: 5px; /* Add space around buttons in the table */
+  background-color: #8a56d0;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.movie-table button:hover {
+  background-color: #7749b3;
+}
